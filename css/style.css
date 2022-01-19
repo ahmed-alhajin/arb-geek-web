@@ -1,0 +1,459 @@
+body{padding-top: 70px;}
+
+h1,h2,h3,h4,h5,lead {font-family: 'Mali', cursive;}
+
+/******* start overriding bootstrab********/
+
+/* main nav bar*/
+
+.navbar{min-height: 70px}
+
+/* nav bar link*/
+
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+/* Brand name*/
+
+.navbar-inverse {color: #BBB;min-height: 70px;}
+
+/* brand name*/
+.navbar-inverse .navbar-brand {font-size: 30px;line-height: 40px;}
+
+/* dropdown-menu*/
+.dropdown-menu
+{
+    background-color: #333;
+    min-width: 200px;
+}
+
+.dropdown-menu > li > a
+{
+    color: #ffffff;
+    padding: 6px 20px;
+    -webkit-trtransition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease;
+    -o-transition:padding 0.5s ease;
+    transition:padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{color: #ffffff;padding-left: 25px;}
+
+.navbar-nav > li > .dropdown-menu {left: 0px;right:auto;}
+
+/* toggle*/
+.navbar-toggle {margin-top: 18px;}
+
+/* carousal */
+.carousel-caption
+{
+    margin-bottom: 80px;
+    background-color: rgba(3,3,3,0.3);
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.carousel-indicators li
+{
+    height: 15px;
+    width: 15px;
+    border: 1px solid #EEE;
+}
+
+.carousel-indicators .active {height: 17px;width: 17px;}
+
+.carousel-indicators {margin-bottom: 0px;}
+
+/******* end overriding bootstrab********/
+
+/*********************************** start section toolbox *********************************/
+.option-box{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 99999;
+}
+
+.option-box .color-option
+{
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #E41B17;
+    display: none;
+}
+
+.option-box .color-option ul li{
+    width: 20px;
+    height: 20px;
+    background: #ff0000;
+    display: inline-block;
+}
+.option-box .gear-check
+{
+    padding: 5px;
+    background: #E41B17;
+    color: #FFFFFF;
+
+}
+
+/********************************************** end section toolbox *************************************************************************************************/
+
+/* start section about */
+
+.about{padding-top: 60px;padding-bottom: 60px;}
+
+.about.lead
+{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.about h1{font-weight: bold;}
+
+/* End section about */
+
+/* start section features*/
+.features
+{
+    background:#EEE ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features .feat p {line-height:2em;}
+
+.features .feat {margin-bottom: 30px;}
+
+
+
+.features .feat span.glyphicon
+{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* End section features*/
+
+/* Start testimonials section*/
+
+.testimonials {padding-top: 50px;padding-bottom: 50px;}
+
+
+.testimonials .lead {line-height: 2em;margin-bottom: 10px;}
+
+.testimonials span {font-size: 18px;font-weight: bold;}
+
+.testimonials .carousel-inner {min-height: 160px;}
+
+.testimonials .carousel-indicators
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.testimonials .carousel-indicators li
+{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.4;
+    border:3px solid #fff;  ;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+
+}
+
+.testimonials .carousel-indicators li.active
+{
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    background: none;
+}
+
+.testimonials .carousel-indicators li img {max-width: 100%;}
+
+/* End testimonials section */
+
+/* start section price table */
+.price-table
+{
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.price-table .price_box
+{
+    background:#ffffff;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+
+.price-table .price_box h2 {margin: 5px 0 15px;}
+
+.price-table .price_box:hover P
+{
+    -webkit-transform:scale(1.1,1.1)rotate(360deg);
+    -moz-transform:scale(1.1,1.1)rotate(360deg);
+    -o-transform:scale(1.1,1.1)rotate(360deg);
+     transform:scale(1.1,1.1)rotate(360deg);
+    border: 2px solid #DFDFDF;
+}
+
+.price-table .price_box p
+{
+    font-size: 35px;
+    font-weight: bold;
+    colon: #666;
+    width: 100px;
+    height: 100px;
+    background: #f3f3f3;
+    border-radius: 50%;
+    line-height: 100px;
+    border: 2px solid #ffffff;
+
+
+
+}
+.price-table .price_box ul {line-height: 250%;font-size: 18px;}
+
+.price-table .price_box a {margin-bottom: 5px;}
+
+/* End section price table */
+
+/*  Start section our team*/
+.our_team
+{
+    background: url("../images/333.jpg")no-repeat center center fixed;
+    background-size: 100% 100%;
+    min-height: 600px;
+}
+.our_team .team
+{
+    background: rgba(2,2,2,0.5);
+    color: #FFF;
+    min-height:600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.our_team .person {margin-bottom: 40px;}
+
+/*  Start section our team*/
+
+/*  Start section Subscribe*/
+.subscribe {padding-top: 40px;padding-bottom: 70px;background: #EEE;}
+
+.subscribe .h1 {color: #888;letter-spacing: 20px;margin-bottom: 20px;}
+
+.subscribe p {margin-bottom: 30px;}
+
+.form-control {border-radius: 0;margin-right: -5px;width: 300px;}
+
+.subscribe button {border-radius: 0;}
+
+/*  End section Subscribe*/
+
+/*  Start section stats*/
+.statistics
+{
+    background: url("../images/222.jpg")no-repeat center center fixed;
+    background-size: 100% 100%;
+    min-height: 300px;
+}
+
+.statistics .data
+{
+    background: rgba(2,2,2,0.4);
+    color: #B6B5B5;
+    min-height: 300px;
+    padding-bottom: 70px;
+}
+
+.statistics .stats {margin-bottom: 30px;}
+
+.statistics .stats:hover {color: #FFFFFF;}
+
+.statistics p
+{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.statistics span {font-size: 18px;}
+
+/*  End section stats*/
+
+/*  Starts section our skills*/
+.our-skills {padding-top: 40px;padding-bottom: 70px;}
+
+.our-skills h3 {font-weight: bold;margin-top: 0;}
+
+.our-skills.progress {height: 36px;}
+
+.our-skills .progress-bar
+{
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+/*  End section our  skills*/
+
+/*  start section contact us*/
+.contact-us
+{
+    background: url("../images/222.jpg")no-repeat center center fixed;
+    background-size: 100% 100%;
+    min-height: 300px;
+}
+
+.contact-us .fields
+{
+    background:rgba(9,9,9,0.8);
+    min-height: 300px;
+    color: #DDDDDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-us p {margin-bottom: 40px;}
+
+
+.contact-us textarea {height: 108px;}
+
+.contact-us input[type="text"],
+.contact-us textarea
+{
+    background: rgba(82,78,78,0.5);
+    color: #FFF;
+    border: none;
+
+    border-radius: 10px;
+}
+
+/*  End section contact us*/
+
+/* start section our clients*/
+.our-clients {background: #EEE;padding-top: 20px;padding-bottom: 20px;}
+
+.our-clients img
+{
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.our-clients img:hover {opacity: 1;}
+
+/*  End section our clients*/
+
+/*  start ultimate footer section*/
+.footer {background: #111;color: #AAA;padding-top: 20px;}
+
+.footer a {color: #AAAAAA;}
+
+.footer a:hover {color: #FFFFFF;}
+
+.footer h3 {letter-spacing: 1px;margin: 30px 0 20px;}
+
+.footer .three-columns {overflow: hidden;}
+
+.footer .three-columns li {width: 33.3333%;float: left;padding: 5px 0;}
+
+.footer .social-list {overflow: hidden;margin: 20px 0 10px;}
+
+.footer .social-list li
+{
+    float: left;
+    margin-right: 3px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.footer .social-list li:hover {opacity: 1;}
+
+.footer .img-thumbnail {background: rgba(0,0,0,0.2);border: 1px solid #444444;margin-bottom: 5px;}
+
+.footer .copyright
+{
+    background: #333333;
+    color: #AAAAAA;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+/************  end ultimate footer section****************/
+
+/*  start section tool box*/
+
+تاجيل
+/*  end section tool box*/
+
+/*************  start section tool box****************/
+#scroll-top
+{
+    width: 50px;
+    height: 40px;
+    color: #DDD;
+    background-color:#272727;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 99999;
+    display: none;
+}
+#scroll-top:hover
+{background-color: #444444;}
+/*************  end section tool box****************/
+.contact-us,.statistics,.our_team
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+.features .h1,
+.testimonials .h1,
+.price-table .h1,
+.our_team .h1,
+.statistics .h1,
+.our-skills .h1
+{margin-bottom:50px}
+
+
+
+.testimonials .carousel-indicators li,
+.price-table .price_box p,
+.statistics .stats,
+.our-clients img,
+.footer .social-list li
+{
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
